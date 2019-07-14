@@ -23,7 +23,7 @@ export default class Wrapper extends Component {
   render() {
     return (
       <div id="quote-box">
-        <Quote />
+        <Quote quote={this.state.quote} author={this.state.author} />
         <Footer />
       </div>
     );
