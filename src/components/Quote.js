@@ -14,7 +14,16 @@ export default function Quote({ quote, author, getRandomQuote }) {
         >
           Get A New Quote
         </button>
-        <a href="#" id="tweet-quote">
+        <a
+          href={
+            "https://twitter.com/intent/tweet?text=" +
+            quote +
+            " - " +
+            author +
+            "&hashtags=randomquoteday"
+          }
+          id="tweet-quote"
+        >
           Tweet This Awesome Quote
         </a>
       </div>
