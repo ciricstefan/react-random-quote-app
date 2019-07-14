@@ -6,9 +6,7 @@ export default function Quote({ quote, author }) {
       <p id="text">{quote}</p>
       <p id="author">{author}</p>
       <div>
-        <a href="#" id="new-quote">
-          Get A New Quote
-        </a>
+        <button id="new-quote">Get A New Quote</button>
         <a href="#" id="tweet-quote">
           Tweet This Awesome Quote
         </a>

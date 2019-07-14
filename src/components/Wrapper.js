@@ -9,6 +9,10 @@ export default class Wrapper extends Component {
   };
 
   componentDidMount() {
+    this.getRandomQuote();
+  }
+
+  getRandomQuote = () => {
     fetch("http://quotes.stormconsultancy.co.uk/random.json")
       .then(res => res.json())
       .then(data => {
@@ -18,7 +22,7 @@ export default class Wrapper extends Component {
         });
       })
       .catch(console.log);
-  }
+  };
 
   render() {
     return (
