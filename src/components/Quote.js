@@ -1,12 +1,19 @@
 import React from "react";
 
-export default function Quote({ quote, author }) {
+export default function Quote({ quote, author, getRandomQuote }) {
   return (
     <React.Fragment>
       <p id="text">{quote}</p>
       <p id="author">{author}</p>
       <div>
-        <button id="new-quote">Get A New Quote</button>
+        <button
+          id="new-quote"
+          onClick={() => {
+            getRandomQuote();
+          }}
+        >
+          Get A New Quote
+        </button>
         <a href="#" id="tweet-quote">
           Tweet This Awesome Quote
         </a>

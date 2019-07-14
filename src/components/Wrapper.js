@@ -27,7 +27,11 @@ export default class Wrapper extends Component {
   render() {
     return (
       <div id="quote-box">
-        <Quote quote={this.state.quote} author={this.state.author} />
+        <Quote
+          quote={this.state.quote}
+          author={this.state.author}
+          getRandomQuote={this.getRandomQuote}
+        />
         <Footer />
       </div>
     );
