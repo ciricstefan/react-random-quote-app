@@ -9,8 +9,12 @@ html {
   background-color: black;
 }
 
-#quote-box {
+#root {
   height: 100vh;
+}
+
+#quote-box {
+  height: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,4 +47,18 @@ button:focus {
 
 span {
   color: white;
+}
+
+footer {
+  height: 4%;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
