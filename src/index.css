@@ -1,0 +1,46 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #00ff41;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+}
+
+#quote-box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text {
+  width: 60%;
+  margin: auto;
+}
+
+button {
+  background-color: black;
+  color: #00ff41;
+  font-weight: bold;
+  border: 2px solid rgb(255, 255, 255);
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+button:focus {
+  outline: 0;
+}
+
+span {
+  color: white;
+}
