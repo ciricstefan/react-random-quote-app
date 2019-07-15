@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-random-quote-app/static/css/main.b120881b.chunk.css",
+    "main.js": "/react-random-quote-app/static/js/main.869e94f4.chunk.js",
+    "main.js.map": "/react-random-quote-app/static/js/main.869e94f4.chunk.js.map",
+    "runtime~main.js": "/react-random-quote-app/static/js/runtime~main.81489eda.js",
+    "runtime~main.js.map": "/react-random-quote-app/static/js/runtime~main.81489eda.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/react-random-quote-app/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/react-random-quote-app/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/react-random-quote-app/index.html",
+    "precache-manifest.d4bdcea0d3dee311101ff735abf5e47e.js": "/react-random-quote-app/precache-manifest.d4bdcea0d3dee311101ff735abf5e47e.js",
+    "service-worker.js": "/react-random-quote-app/service-worker.js",
+    "static/css/main.b120881b.chunk.css.map": "/react-random-quote-app/static/css/main.b120881b.chunk.css.map"
+  }
+}
